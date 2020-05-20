@@ -36,7 +36,7 @@ public class IsArmstrongNumber28 {
 		if (noOfDigits > 1) {
 			while (n > 0) {
 				digit = n % 10;
-				sumOfProd = sumOfProd + noProduct(digit, noOfDigits);
+				sumOfProd += noProduct(digit, noOfDigits);
 				n = n / 10;
 			}
 		}
@@ -50,7 +50,7 @@ public class IsArmstrongNumber28 {
 	public static long noProduct(int num, int noOfDigits) {
 		long product = 1;
 		for (int i = 0; i < noOfDigits; i++) {
-			product = product * num;
+			product *= num;
 		}
 		return product;
 	}
