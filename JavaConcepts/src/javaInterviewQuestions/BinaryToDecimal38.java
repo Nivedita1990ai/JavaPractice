@@ -14,9 +14,9 @@ public class BinaryToDecimal38 {
 		int decNo = Integer.parseInt(str, 2);
 		System.out.println("Converted Decimal number :: " + decNo);
 
-		System.out.println("---------------------------------------");
+		System.out.println("------------------------------------------");
 		printDecimalToBinary(decNo);
-		System.out.println("---------------------------------------");
+		System.out.println("------------------------------------------");
 		printBinaryToDecimal(Integer.parseInt(str));
 	}
 
