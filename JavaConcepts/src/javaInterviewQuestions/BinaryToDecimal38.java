@@ -15,12 +15,12 @@ public class BinaryToDecimal38 {
 		System.out.println("Converted Decimal number :: " + decNo);
 
 		System.out.println("------------------------------------------");
-		printDecimalToBinary(decNo);
+		System.out.println(printDecimalToBinary(decNo));
 		System.out.println("------------------------------------------");
-		printBinaryToDecimal(Integer.parseInt(str));
+		System.out.println(printBinaryToDecimal(Integer.parseInt(str)));
 	}
 
-	public static void printDecimalToBinary(int decNo) {
+	public static int printDecimalToBinary(int decNo) {
 		int i = 0;
 		int[] binaryNum = new int[1000];
 		while (decNo > 0) {
@@ -28,12 +28,18 @@ public class BinaryToDecimal38 {
 			decNo /= 2;
 			i++;
 		}
+		String binNum = "";
 		for (int j = i - 1; j >= 0; j--) {
-			System.out.print(binaryNum[j]);
+			//System.out.print(binaryNum[j]);
+			//System.out.println(String.valueOf(binaryNum[j]));
+			binNum=binNum.concat(String.valueOf(binaryNum[j]));
 		}
+		//String binNum = Integer.toBinaryString(decNo);
+		int bin = Integer.parseInt(binNum, 2);
+		return bin;
 	}
 
-	public static void printBinaryToDecimal(int binNum) {
+	public static int printBinaryToDecimal(int binNum) {
 
 		int decNo = 0;
 		int temp = binNum;
@@ -45,6 +51,7 @@ public class BinaryToDecimal38 {
 			decNo += lastDigit * base;
 			base *= 2;
 		}
-		System.out.println("Binary to Decimal number :: " + decNo);
+		//System.out.println("Binary to Decimal number :: " + decNo);
+		return decNo;
 	}
 }
