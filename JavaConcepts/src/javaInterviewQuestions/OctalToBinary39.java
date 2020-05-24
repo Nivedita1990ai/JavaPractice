@@ -22,7 +22,7 @@ public class OctalToBinary39 {
 	}
 
 	public static int binaryToOctal(String binNo) {
-		int decNo = BinaryToDecimal38.printBinaryToDecimal(Integer.parseInt(binNo,2));
+		int decNo = Integer.parseInt(binNo,2);
 		int octNo=OctalToDecimal38.decimalToOctal(decNo);
 		return octNo;
 	}
