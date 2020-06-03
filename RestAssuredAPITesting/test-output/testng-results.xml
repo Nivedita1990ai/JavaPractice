@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4629" started-at="2020-06-01T19:55:08 EDT" finished-at="2020-06-01T19:55:12 EDT">
+  <suite name="Default suite" duration-ms="7319" started-at="2020-06-02T07:54:45 EDT" finished-at="2020-06-02T07:54:52 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4629" started-at="2020-06-01T19:55:08 EDT" finished-at="2020-06-01T19:55:12 EDT">
+    <test name="Default test" duration-ms="7319" started-at="2020-06-02T07:54:45 EDT" finished-at="2020-06-02T07:54:52 EDT">
       <class name="NYTBooksAssignment.GetBooksList">
-        <test-method status="PASS" signature="getBooksList()[pri:0, instance:NYTBooksAssignment.GetBooksList@1290ed28]" name="getBooksList" duration-ms="3360" started-at="2020-06-01T19:55:08 EDT" finished-at="2020-06-01T19:55:11 EDT">
+        <test-method status="PASS" signature="getBooksList()[pri:0, instance:NYTBooksAssignment.GetBooksList@4b10e470]" name="getBooksList" duration-ms="5205" started-at="2020-06-02T07:54:45 EDT" description="Get books list" finished-at="2020-06-02T07:54:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBooksList -->
-        <test-method status="PASS" signature="noOfResultTest()[pri:0, instance:NYTBooksAssignment.GetBooksList@1290ed28]" name="noOfResultTest" duration-ms="1140" started-at="2020-06-01T19:55:11 EDT" finished-at="2020-06-01T19:55:12 EDT">
+        <test-method status="PASS" signature="noOfResultTest()[pri:0, instance:NYTBooksAssignment.GetBooksList@4b10e470]" name="noOfResultTest" duration-ms="1706" started-at="2020-06-02T07:54:50 EDT" description="Test number of results" finished-at="2020-06-02T07:54:52 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noOfResultTest -->
-        <test-method status="PASS" signature="processBooksList()[pri:0, instance:NYTBooksAssignment.GetBooksList@1290ed28]" name="processBooksList" duration-ms="25" started-at="2020-06-01T19:55:12 EDT" finished-at="2020-06-01T19:55:12 EDT">
+        <test-method status="PASS" signature="processBooksList()[pri:0, instance:NYTBooksAssignment.GetBooksList@4b10e470]" name="processBooksList" duration-ms="29" started-at="2020-06-02T07:54:52 EDT" description="Process list of books and null check" finished-at="2020-06-02T07:54:52 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- processBooksList -->
